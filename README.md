@@ -3,6 +3,19 @@
 Beautiful Rust stress tester with a form (URL, method, headers, body) and a
 live TUI: stats, circuit breaker, and sparklines.
 
+## Screenshots
+
+**Form** — URL, method, headers, body, concurrency, RPM. Enter to start.
+
+![Form](doc/form-screenshot.png)
+
+**Dashboard** — Live stats, circuit breaker, RPS sparkline, success rate.
+
+![Dashboard](doc/dashboard-screenshot.png)
+
+*(Dashboard image is a mockup; for a real capture run `just`, start a load test,
+then screenshot your terminal.)*
+
 ## Install
 
 ```bash
